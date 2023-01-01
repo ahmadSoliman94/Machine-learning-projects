@@ -1,0 +1,10 @@
+ID,name,temperature,salary
+1,Thomas,36.56,7000
+2,Thomas,37.56,
+3,Thomas,38.56,7000.00
+ID,name,temperature,salary
+4,Thomas,7,1000.00
+5,Thomas,36.56,7000
+6,Thomas,,7000
+ID,name,temperature,salary
+7,Thomas,38.56,7000

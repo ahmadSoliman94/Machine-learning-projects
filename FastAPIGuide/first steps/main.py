@@ -14,3 +14,5 @@ async def root():
     return {"message": "Hello World"}
 
 # Command: (uvicorn main:app --reload) to run the server. 
+# pip install "uvicorn[standard]"
+# pip install fastapi

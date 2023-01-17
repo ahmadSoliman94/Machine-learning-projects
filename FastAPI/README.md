@@ -50,7 +50,8 @@
 2. #### **OAuth2 Authentication**: can be complex to set up and maintain. It also requires that users have accounts with the OAuth2 provider, which can be a limitation if you want to allow users to create accounts within your app.
  3. #### **JWT (JSON Web Token) Authentication**: carry all the information needed to authenticate a user. This can make them large and unwieldy, and it also means that any information stored in a JWT is visible to anyone who can access the token. 
  4. #### **Session-based Authentication**: relies on the server to store  information. This can be a limitation if you want to scale your app to multiple servers, as you will need to implement a way to share session data across servers. Additionally, cookies can be vulnerable to hack attacks if not properly secured.
-5. #### **API Key Authentication**: can be less secure than other methods because the key is typically a simple string and can be easily guessed or stolen if not properly secured. Additionally, it can be difficult to track and revoke specific keys, making it difficult to block access if a key is compromised.</b> </b>
+5. #### **API Key Authentication**: can be less secure than other methods because the key is typically a simple string and can be easily guessed or stolen if not properly secured. Additionally, it can be difficult to track and revoke specific keys, making it difficult to block access if a key is compromised.</b> 
+</b>
 
 * ##  **Dependency Injection**: 
 ### means, that there is a way for the path operation functions to declare things that it requires to work. And then FastAPI will take care of doing whatever is needed to provide the path operation function with those needed dependencies ("inject" the dependencies).

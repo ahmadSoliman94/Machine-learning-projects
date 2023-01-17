@@ -53,4 +53,4 @@
 5. #### **API Key Authentication**: can be less secure than other methods because the key is typically a simple string and can be easily guessed or stolen if not properly secured. Additionally, it can be difficult to track and revoke specific keys, making it difficult to block access if a key is compromised.</b> </b>
 
 * ##  **Dependency Injection**: 
-### means, that there is a way for the path operation functions to declare things that it requires to work and use: "dependencies". And then FastAPI will take care of doing whatever is needed to provide the path operation function with those needed dependencies ("inject" the dependencies).
+### means, that there is a way for the path operation functions to declare things that it requires to work. And then FastAPI will take care of doing whatever is needed to provide the path operation function with those needed dependencies ("inject" the dependencies).

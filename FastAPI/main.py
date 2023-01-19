@@ -76,3 +76,6 @@ async def create_upload_data(file_type:str,file: bytes = File(...),
 
 
 
+
+
+

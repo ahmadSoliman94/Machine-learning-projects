@@ -1,0 +1,2 @@
+* ### *First i need to create server using `FastAPI` library that can handle file uploads ,then it will be needed to start the server. After server is running a FastAPI app with a single endpoint that accepts file uploads. On the client side, we use the `requests` library to send a POST request to the server, including the PDF file in the files parameter of the post() method. The server receives the file, reads it into a bytes object and handle it accordingly, in this case it returns the file to a file called "responded_data.pdf" to the client.*
+
